@@ -1,0 +1,60 @@
+/* Common HTML elements */
+body {
+    font-family: sans-serif;
+    background-color: rgb(31, 31, 31);
+}
+
+div {
+    background-color: rgb(31, 31, 31);
+}
+
+h1 {
+    color: #fa4454;
+    padding: 1px;
+}
+
+h2, h3, h4, h5, h6 {
+    color: #dc3d4b;
+    padding: 1px;
+}
+
+p {
+    color: rgb(170, 170, 170);
+    padding: 1px;
+}
+
+
+/* Dropdown elements */
+div.dash-dropdown {
+    color: rgb(170, 170, 170); /* Color of text for dropdown elements */
+}
+
+span#react-select-2--value-item.Select-value-label {
+    color: rgb(170, 170, 170); /* Color of text for selected dropdown */
+}
+
+
+/* Slider elements */
+.rc-slider-track {
+    background-color: #ca3542; /* Color of slider indicating the range selected */
+}
+
+.rc-slider-mark-text {
+    color: rgb(100, 100, 100); /* Color of the text for those not in the selected range */
+    padding: 1px;
+}
+
+.rc-slider-mark-text.rc-slider-mark-text-active {
+    color: rgb(170, 170, 170); /* Color of the text for those in the selected range */
+    padding: 1px;
+}
+
+
+/* Checklist elements */
+label {
+    color: rgb(170, 170, 170); /* Text font color */
+}
+
+input[type="checkbox"]:checked{
+    filter: grayscale(1); /* Makes the check mark gray instead of blue; not straightforward to manually assign the color since it requires changes to browser settings */
+}
