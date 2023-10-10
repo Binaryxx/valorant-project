@@ -1,7 +1,8 @@
 # valorant_project
 
-WORK IN PROGRESS: Although the code is functional, I would like to clean up readability, make code shorter, and update the presentation slides.
-
+*WORK IN PROGRESS: Although the code is functional, I would like to clean up readability, make code shorter, and update the presentation slides.*
+<br>
+<br>
 
 First personal data science project; the goal was to make a stat tracker for Valorant, specifically the win rate and pick rate of each agent; also used machine learning to prove the irrelevance of stats to skill by creating a classifier to predict what rank a player is based on stats such as headshot percentage and kast
 
